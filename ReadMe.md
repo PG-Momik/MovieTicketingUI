@@ -6,11 +6,11 @@
 
 - This is a very basic frontend design and implementation for a "Movie Booking System".
 - The figma design folder consists of the designs.
-- The screenshot folder consists of screenshots.
+- The screenshots are inside screenshots folder.
 - Not responsive.
 
 # Screenshot
 
-<img src="./HamroMovies.png">
+<img src="./screenshots/HamroMovies.png">
 
 # Thank You
