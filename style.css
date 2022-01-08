@@ -336,3 +336,136 @@ footer .-right img{
     color: white;
     padding-bottom:2.2rem;
 }
+
+
+/* ------------------------------------ */
+.ticket-container{
+    margin: 0 120px;
+    padding-top: 1.5vh;
+    padding: 0 2.5vw;
+    background-color: #FFFFFF95;
+    font-family: sans-serif;
+    padding-bottom: 4vh;
+}
+
+.table .th{
+    font-weight: 700;
+    background:#5FAFF9;
+    color: white;
+}
+.table .td{
+    padding-top: 1rem;
+    padding-left: 1.5vw;
+    padding-right: 1vw;
+    display: flex;
+    height: 8vh;   
+}
+.white-bg{
+    background: white;
+}
+.td .left{
+    width: 69%;
+}
+.td .right{
+    display: flex;
+    width: 30%;
+}
+.screen{
+    width: 50%;
+}
+.warn-msg{
+    color:#FF0000;
+}
+.fyi{
+    margin: 4vh 5vw;
+    padding: 2vh 5vw;
+    text-align: justify;
+}
+
+/* ---------------------------- */
+.show-container{
+    margin: 1vh 5vw;
+}
+.show-container h1{
+    color: white
+}
+.show-card{
+    display: flex;
+    flex-direction: row;
+    column-gap: 4vw;
+}
+.card{
+    height: 60vh;
+    width: 20vw;
+    /* border: 2px solid black    */
+}
+.english-shows .card:nth-child(1){
+    margin-left:2.5vw;
+    background: url(images/movie1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.english-shows .card:nth-child(2){
+    background: url(images/movie2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.english-shows .card:nth-child(3){
+    background: url(images/movie3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.nepali-shows .card:nth-child(1){
+    margin-left:2.5vw;
+    background: url(images/movie4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.nepali-shows .card:nth-child(2){
+    background: url(images/movie5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.nepali-shows .card:nth-child(3){
+    background: url(images/movie6.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.show-overlay{
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: row;
+    column-gap: 4vw;
+    margin-top: -20vh;
+}
+.card-overlay{
+    width: 20vw;
+    height: 20vh;
+    /* border-radius: 22px 22px 0px 0px; */
+    background: linear-gradient(white, black);
+    opacity: 0.7;
+
+    border-radius: 12px  12px 0 0;
+}
+.card-overlay:nth-child(1){
+    margin-left:2.5vw;
+}
+.overlay-word{
+    width: 30%;
+    height: 3rem;
+    display: inline-block;
+    border: 2px solid white;
+    background:grey;
+    text-align: center;
+    padding: 10px 15px;
+    color: #FFC736;
+    margin-left: 35%;
+    margin-top: 10%;
+    font-size: 1.2rem;
+    border-radius: 5px;
+
+
+}
